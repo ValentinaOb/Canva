@@ -21,9 +21,11 @@ ctx.fill();
 
 var x =225;
 var dx=1;
-function animate(){
-    requestAnimationFrame(animate);
+
+function animatemove(){
+    requestAnimationFrame(animatemove);
     ctx.clearRect(0,0,innerHeight,innerHeight);
+    
 //circle
 ctx.beginPath();
 ctx.arc(x,225, 175, 25, 0, 2 * Math.PI, false);
